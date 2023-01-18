@@ -1,0 +1,55 @@
+table {
+    margin-top: 20px;
+    border: 10px solid black;
+    border-collapse: collapse;
+    width: 700px;
+}
+
+td {
+    width: 50px;
+    height: 60px;
+    text-align: center;
+    border: 1px solid gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+td:hover {
+    transition: ease-in all 0.2s;
+    color: white;
+    /* cursor: pointer; */
+    background-color: skyblue;
+}
+
+th {
+    height: 45px;
+    padding-bottom: 7px;
+    background: skyblue;
+    font-size: 30px;
+    text-align: center;
+}
+th:hover{
+    transition: ease-in-out all 0.3s;
+    background-color: lavender;
+}
+
+.prev_sign a,
+.next_sign a {
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+tr.week_name {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    width: 10px;
+    background-color: skyblue;
+}
+
+.highlight {
+    background-color: skyblue;
+    color: white;
+    height: 27px;
+}
